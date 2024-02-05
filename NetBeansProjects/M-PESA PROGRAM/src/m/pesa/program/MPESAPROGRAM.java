@@ -167,7 +167,7 @@ public class MPESAPROGRAM {
                  System.out.println("press 3 for lock savings account");
                  System.out.println("press 4 for loan");
                  System.out.println("press 5 to check balance");
-                 System.out.println("press 6 for ministatement");
+                 System.out.println("press 6 for mini-statement");
                 choice =input.nextInt();
                 switch(choice){
                     case 1:
@@ -189,7 +189,7 @@ public class MPESAPROGRAM {
                  System.out.println("press 2 to save");
                  System.out.println("press 3 for withdraw");
                  System.out.println("press 4 to check balance");
-                 System.out.println("press 5 for ministatement");
+                 System.out.println("press 5 for mini-statement");
                         choice=input.nextInt();
                         switch (choice){
                             case 1:
@@ -446,7 +446,7 @@ public class MPESAPROGRAM {
                         }
             break;
                  case 6:
-                       System.out.println(" press 1  for ministatement  press 2 to check balance, press 3 to change pin n press 4 to change language");
+                       System.out.println(" press 1  for mini-statement  press 2 to check balance, press 3 to change pin n press 4 to change language");
     choice=input.nextInt();
                         switch (choice){
                             case 1:  
@@ -466,7 +466,7 @@ public class MPESAPROGRAM {
                       pin=input.nextInt();
                      System.out.println("confirm pin");
                       pin=input.nextInt();
-                      System.out.println("pin changed succssesfuly");
+                      System.out.println("pin changed successfully");
                       break ;
                             case 4:
                                   System.out.println("press 1 for english,press 2 for kishwahili");
@@ -481,16 +481,16 @@ public class MPESAPROGRAM {
                                      System.out.println("enter m-pesa pin");
                       pin=input.nextInt();
                        System.out.println("sent wait for M-PESA to reply");
-                       System.out.println("language changed sucsesfuly");
+                       System.out.println("language changed successfully");
                                 break; 
                                 }
                             case 5:
                                   System.out.println("enter m-pesa pin");
                       pin=input.nextInt();
-                       System.out.println("language changed sucsesfuly");
+                       System.out.println("language changed successfully");
                         }
                  default :
-                     System.out.println("INVALID CHOICE PLEASE TRTY AGAIN");
+                     System.out.println("INVALID CHOICE PLEASE TRY AGAIN");
                      
         }
     }
